@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a9447004.css",
-    "main.js": "/portfolio/static/js/main.24119f15.js",
+    "main.css": "/portfolio/static/css/main.47e77005.css",
+    "main.js": "/portfolio/static/js/main.9704c3a3.js",
+    "static/media/audras.jpg": "/portfolio/static/media/audras.16859cb010ce9f319c0b.jpg",
+    "static/media/LAGACHE_Kylian.jpg": "/portfolio/static/media/LAGACHE_Kylian.fa7f6fe238ba84b4a1b9.jpg",
     "index.html": "/portfolio/index.html",
-    "main.a9447004.css.map": "/portfolio/static/css/main.a9447004.css.map",
-    "main.24119f15.js.map": "/portfolio/static/js/main.24119f15.js.map"
+    "main.47e77005.css.map": "/portfolio/static/css/main.47e77005.css.map",
+    "main.9704c3a3.js.map": "/portfolio/static/js/main.9704c3a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9447004.css",
-    "static/js/main.24119f15.js"
+    "static/css/main.47e77005.css",
+    "static/js/main.9704c3a3.js"
   ]
 }
