@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'; // Importer Link de react-router-dom
 import { projects } from '../../portfolio'; // Importer les projets depuis le fichier portfolio
 import ProjectContainer from '../ProjectContainer/ProjectContainer'; // Importer le container pour chaque projet
+import '../Skills/Skills.css';
 import './Projects.css';
 
 const Projects = () => {

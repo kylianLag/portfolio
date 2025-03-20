@@ -4,14 +4,21 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  color:black;
 }
-
+.dark .project{
+  color:white;
+}
 .project:hover {
   transform: translateY(-7px);
 }
 
 .project__description {
   margin-top: 1em;
+  text-decoration: none !important;
+}
+.project p {
+  text-decoration: none;
 }
 
 .project__stack {
@@ -19,15 +26,38 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
+  text-decoration: none;
+  list-style: none !important;
+  margin-left: -2em;
+
 }
 
 .project__stack-item {
   margin: 0.5em;
+  padding: 0.3em 0.6em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
+  text-decoration: none;
+  background: var(--clr-bg-alt); /* Assure-toi que cette variable existe */
+  border-radius: 0px; /* Coins arrondis */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre légère */
+  transition: all 0.3s ease-in-out;
+  padding:10px;
+}
+
+.project__stack-item:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Ombre plus forte au survol */
+  transform: scale(1.05); /* Effet d'agrandissement léger */
+}
+
+
+.project-link {
+  text-decoration: none !important;
+  color: inherit; /* Pour éviter qu'il prenne une couleur de lien */
 }
 
 .project .link--icon {
   margin-left: 0.5em;
+  text-decoration: none;
 }

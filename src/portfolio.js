@@ -47,7 +47,7 @@ const projects = [
     name: 'Application mobile de visualisation des notes des praticiens avec Flutter',
     description:
       "Création d'une application mobile pour la gestion et la visualisation des notes des praticiens.",
-    stack: ['Flutter'],
+    stack: ['Flutter' , 'SQL'],
    
   },
 ]

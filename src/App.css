@@ -1,10 +1,22 @@
-.app {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5;
-  color: var(--clr-fg);
-  background-color: var(--clr-bg);
+/* Appliquer un style global à body pour éviter les contours */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--clr-bg);  /* Le fond s'ajuste au thème */
+  color: var(--clr-fg);  /* La couleur du texte s'ajuste au thème */
 }
 
+/* Mise en page de la section principale */
+.main {
+  max-width: 1100px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: var(--clr-bg); /* Assure que le fond de main soit correct */
+}
+
+/* Application du thème clair et sombre */
 .light {
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
@@ -24,27 +36,71 @@
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-main {
-  max-width: 1100px;
-  width: 95%;
-  margin: 0 auto;
+/* App styling */
+.app {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  color: var(--clr-fg);
+  background-color: var(--clr-bg);
+  box-shadow: none; /* Éviter les ombres non désirées qui causent un contour */
 }
 
-.section {
-  margin-top: 5em;
-}
-
-.section__title {
-  text-align: center;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-}
-
-.center {
+/* Navbar - Gestion de l'apparence et des éléments */
+.nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 1em;
+  background-color: var(--clr-bg); /* Fond de la navbar */
 }
 
+.nav__list {
+  display: flex;
+  margin-right: 1.5em;
+}
+
+.nav__list-item {
+  margin-left: 1.5em;
+}
+
+.nav__theme {
+  margin-top: 0.4em;
+}
+
+/* Suppression des puces de la navbar */
+.nav__list-item {
+  list-style: none;
+}
+
+.app .nav__hamburger {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav__list {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .nav__list-item {
+    margin: 0.5em 0;
+  }
+
+  .app .nav__hamburger {
+    display: flex;
+    z-index: 2;
+    margin-left: 0.8em;
+  }
+}
+
+/* Liens avec effets */
 .link {
   color: var(--clr-primary);
   padding: 0 0 0.3em 0;
@@ -81,6 +137,7 @@ main {
   color: var(--clr-fg);
 }
 
+/* Boutons */
 .btn {
   display: block;
   cursor: pointer;
@@ -145,8 +202,30 @@ main {
   transform: translateY(-5px);
 }
 
+/* Ajout du fond et du style de la section */
+.section {
+  margin-top: 5em;
+  padding: 2em 0;
+  background-color: var(--clr-bg);
+}
+
+.section__title {
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .section {
     margin-top: 4em;
   }
+}
+
+a{
+  text-decoration: none !important;
 }

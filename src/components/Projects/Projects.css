@@ -4,4 +4,38 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+  
+  
+}
+
+
+
+/* Style des stacks de technologies */
+.stack {
+  display: inline-block;
+  background-color: var(--clr-bg-alt);
+  color: var(--clr-fg);
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease; /* Transition douce pour l'animation */
+}
+
+/* Effet de survol */
+.stack:hover {
+  transform: translateY(-5px); /* L'élément "s'élève" légèrement */
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px 0px; /* Ombre plus forte */
+  cursor: pointer; /* Pour indiquer que l'élément est interactif */
+}
+
+/* Style pour les stacks dans le thème sombre */
+.dark .stack {
+  background-color: var(--clr-bg-alt);
+  color: var(--clr-fg-alt);
+}
+
+/* Si tu veux également un effet de focus pour les stack sur la version sombre */
+.dark .stack:hover {
+  background-color: var(--clr-bg); /* Fond plus clair au survol */
 }

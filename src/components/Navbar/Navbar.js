@@ -9,10 +9,11 @@ import { contact, projects, skills } from '../../portfolio';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext)
-  const [showNavList, setShowNavList] = useState(false)
+  // Utilisation correcte du useContext pour obtenir themeName et toggleTheme
+  const { themeName, toggleTheme } = useContext(ThemeContext);
+  const [showNavList, setShowNavList] = useState(false);
 
-  const toggleNavList = () => setShowNavList(!showNavList)
+  const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
     <nav className='center nav'>
@@ -86,7 +87,7 @@ const Navbar = () => {
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
