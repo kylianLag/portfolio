@@ -1,0 +1,111 @@
+.project-details {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: var(--clr-bg);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  
+  .project-details__title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 1em;
+    color: var(--clr-primary);
+  }
+  
+  .project-details__description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2em;
+    color: var(--clr-fg);
+  }
+  
+  .project-details__stack {
+    margin: 2em 0;
+  }
+  
+  .project-details__stack h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: var(--clr-primary);
+  }
+  
+  .project-details__stack ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .project-details__stack li {
+    background-color: var(--clr-bg-alt);
+    margin: 0.5em;
+    padding: 0.6em 1.2em;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-details__stack li:hover {
+    background-color: var(--clr-primary-light);
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+  
+  .project-details__stack li + li {
+    margin-left: 1.5em; /* Espacement plus large entre les éléments */
+  }
+  
+  .project-details__stack li:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--clr-primary-light);
+  }
+  
+  .project-details__links {
+    margin: 2em 0;
+  }
+  
+  .project-details__links h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: var(--clr-primary);
+  }
+  
+  .project-details__links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-details__links li {
+    margin-bottom: 0.5em;
+  }
+  
+  .project-details__links a {
+    color: var(--clr-primary);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .project-details__links a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    .project-details__stack ul {
+      justify-content: space-evenly;
+    }
+  
+    .project-details__stack li {
+      font-size: 0.9rem;
+      padding: 0.5em 1em;
+    }
+  }
+  
