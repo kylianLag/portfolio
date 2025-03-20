@@ -1,0 +1,41 @@
+.image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;  /* Ajuste la largeur selon ton besoin */
+    margin: 0 auto;
+    overflow: hidden;  /* Cache les éléments qui dépassent du conteneur */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    max-width: 500px;  /* Ajuste selon la taille que tu veux pour les images */
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+  }
+  
+  .arrow.left {
+    left: 10px;
+  }
+  
+  .arrow.right {
+    right: 10px;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
