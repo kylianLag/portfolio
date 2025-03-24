@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.47e77005.css",
-    "main.js": "/portfolio/static/js/main.9704c3a3.js",
-    "static/media/audras.jpg": "/portfolio/static/media/audras.16859cb010ce9f319c0b.jpg",
-    "static/media/LAGACHE_Kylian.jpg": "/portfolio/static/media/LAGACHE_Kylian.fa7f6fe238ba84b4a1b9.jpg",
+    "main.css": "/portfolio/static/css/main.ce312ab2.css",
+    "main.js": "/portfolio/static/js/main.8d0be5be.js",
+    "static/media/preuveReunion.jpg": "/portfolio/static/media/preuveReunion.c4f74b2ec515ad9c7198.jpg",
+    "static/media/wordpress.png": "/portfolio/static/media/wordpress.02d1ce4188d275b6cf27.png",
+    "static/media/bddHeberger.png": "/portfolio/static/media/bddHeberger.00a40fba679f7923c387.png",
+    "static/media/GestionAdmin.png": "/portfolio/static/media/GestionAdmin.d477c3a94b009bd39221.png",
+    "static/media/mblock.png": "/portfolio/static/media/mblock.f69702a17bef496b23bb.png",
+    "static/media/gestionEmprunt.png": "/portfolio/static/media/gestionEmprunt.03705ed2c42ae0f15e07.png",
+    "static/media/Cahier_des_charges_numérique_de_loutillothéque.pdf": "/portfolio/static/media/Cahier_des_charges_numérique_de_loutillothéque.5e342a7e7fc9c42fbca5.pdf",
+    "static/media/documentationUtilisation.pdf": "/portfolio/static/media/documentationUtilisation.e20e192c75c5c76c225f.pdf",
+    "static/media/triggerInsert.png": "/portfolio/static/media/triggerInsert.290e9ad5a1f499644c68.png",
+    "static/media/triggerDelete.png": "/portfolio/static/media/triggerDelete.88f2088069daa7aa1656.png",
+    "static/media/utilisationPluginWordpress.png": "/portfolio/static/media/utilisationPluginWordpress.0dcd7125a03bf84190fb.png",
     "index.html": "/portfolio/index.html",
-    "main.47e77005.css.map": "/portfolio/static/css/main.47e77005.css.map",
-    "main.9704c3a3.js.map": "/portfolio/static/js/main.9704c3a3.js.map"
+    "main.ce312ab2.css.map": "/portfolio/static/css/main.ce312ab2.css.map",
+    "main.8d0be5be.js.map": "/portfolio/static/js/main.8d0be5be.js.map"
   },
   "entrypoints": [
-    "static/css/main.47e77005.css",
-    "static/js/main.9704c3a3.js"
+    "static/css/main.ce312ab2.css",
+    "static/js/main.8d0be5be.js"
   ]
 }
