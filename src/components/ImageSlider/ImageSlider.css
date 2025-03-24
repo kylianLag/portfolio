@@ -39,3 +39,15 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
   
+  p{
+    color:black;
+    font-size:1.2em;
+  }
+  .image {
+    width: 100%;  /* Fait en sorte que l'image prenne toute la largeur du conteneur */
+    height: auto; /* Garde le ratio de l'image */
+    max-width: 800px; /* Ajuste selon ton besoin */
+    max-height: 500px; /* Ajuste la hauteur */
+    object-fit: contain; /* Garde l'image bien cadrée */
+  }
+  

@@ -1,15 +1,44 @@
 import React from 'react';
-import audras from '../../assets/img/audras.jpg';
-import myImage from '../../assets/img/LAGACHE_Kylian.jpg'; // Importer l'image depuis assets/img
+import bddHeberger from '../../assets/img/AMQR/bddHeberger.png';
+import CahierDesCharge from '../../assets/img/AMQR/Cahier_des_charges_numérique_de_loutillothéque.pdf';
+import documentationUtilisation from '../../assets/img/AMQR/documentationUtilisation.pdf';
+import GestionAdmin from '../../assets/img/AMQR/GestionAdmin.png';
+import GestionEmprunt from '../../assets/img/AMQR/gestionEmprunt.png';
+import mblock from '../../assets/img/AMQR/mblock.png';
+import mbot from '../../assets/img/AMQR/mbot.jpg';
+import Reunion from '../../assets/img/AMQR/preuveReunion.jpg';
+import TriggerDelete from '../../assets/img/AMQR/triggerDelete.png';
+import TriggerInsert from '../../assets/img/AMQR/triggerInsert.png';
+import pluginWordpress from '../../assets/img/AMQR/utilisationPluginWordpress.png';
+import wordpress from "../../assets/img/AMQR/wordpress.png";
 import ImageSlider from '../ImageSlider/ImageSlider'; // Assure-toi que le chemin est correct
 import './AMQR.css'; // Assurez-vous que le fichier AMQR.css existe et est bien importé
+
+
+
+
 
 const AMQR = () => {
   // Définir le tableau d'images pour ce projet spécifique
   const imagesAMQR = [
-    myImage,
-    audras,
+    { src: CahierDesCharge , pdfLink: CahierDesCharge , title : "Création d'un cahier des charges suites à la réunions pré stage"}, // Image avec un lien PDF
+    { src: wordpress, title : "Découverte du logiciel Low Code Wordpress"},// Image avec un lien PDF
+    {src: pluginWordpress , title : "Insertion de code PHP dans Wordpress grâce au plugin PHP Snippets"},
+    {src : bddHeberger , title : "Hebergement de la Base de données afin de présenter l'avancement à la réunion futur"},
+    {src : GestionEmprunt , title : "Mise en place d'une interface de gestion des Emprunts"},
+    {src : GestionAdmin , title : "Mise en place d'une interface Administrateur"},
+    {src : TriggerDelete , title : "Trigger pour gerer le nombre d'exemplaire"},
+    {src : TriggerInsert , title : "Trigger pour gerer le nombre d'exemplaire"},
+    {src : Reunion , title : "Réunion de mi-parcours"},
+    {src : documentationUtilisation ,pdfLink: documentationUtilisation, title : "documentation d'Utilisation pour le personnel en charge de l'outillothéque"},
+    {src : mbot , title : "apprentissages des notions algorithmique à des collégiens"},
+    {src : mblock , title : "apprentissages des notions algorithmique à des collégiens"},
+    // atelier robotique
+
+
+
   ];
+  
 
   return (
     <section className="project-details">

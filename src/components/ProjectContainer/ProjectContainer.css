@@ -20,7 +20,9 @@
 .project p {
   text-decoration: none;
 }
-
+.dark .project__description{
+  color:white;
+}
 .project__stack {
   display: flex;
   flex-wrap: wrap;
