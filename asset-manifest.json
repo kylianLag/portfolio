@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8b6ce66b.css",
-    "main.js": "/portfolio/static/js/main.56a4c231.js",
+    "main.js": "/portfolio/static/js/main.b99d277c.js",
     "static/media/preuveReunion.jpg": "/portfolio/static/media/preuveReunion.c4f74b2ec515ad9c7198.jpg",
     "static/media/pageAccueilAnnonce.png": "/portfolio/static/media/pageAccueilAnnonce.f73dfbeca159513d880c.png",
     "static/media/trello.png": "/portfolio/static/media/trello.4d776a78d17e9e6ac47e.png",
@@ -15,6 +15,7 @@
     "static/media/api.png": "/portfolio/static/media/api.c37f528cf09f654e0fd7.png",
     "static/media/GestionAdmin.png": "/portfolio/static/media/GestionAdmin.d477c3a94b009bd39221.png",
     "static/media/mblock.png": "/portfolio/static/media/mblock.f69702a17bef496b23bb.png",
+    "static/media/cv_LAGACHE_KYLIAN_ASTON.pdf": "/portfolio/static/media/cv_LAGACHE_KYLIAN_ASTON.bae1cf793ba622f933b4.pdf",
     "static/media/codeSuppressionFacture.png": "/portfolio/static/media/codeSuppressionFacture.7134bea222eae598e816.png",
     "static/media/responsive3.png": "/portfolio/static/media/responsive3.83996f12a17322b25b5b.png",
     "static/media/panelAdmin.png": "/portfolio/static/media/panelAdmin.579365ccd36190a2f2b5.png",
@@ -50,10 +51,10 @@
     "static/media/connexion.png": "/portfolio/static/media/connexion.e326bc9d31fcea28a31a.png",
     "index.html": "/portfolio/index.html",
     "main.8b6ce66b.css.map": "/portfolio/static/css/main.8b6ce66b.css.map",
-    "main.56a4c231.js.map": "/portfolio/static/js/main.56a4c231.js.map"
+    "main.b99d277c.js.map": "/portfolio/static/js/main.b99d277c.js.map"
   },
   "entrypoints": [
     "static/css/main.8b6ce66b.css",
-    "static/js/main.56a4c231.js"
+    "static/js/main.b99d277c.js"
   ]
 }
