@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import cvImage from './assets/img/cv.png'; // Import de l'image
+import cvPDF from './assets/img/cv_LAGACHE_KYLIAN_ASTON.pdf';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
@@ -39,7 +40,7 @@ const App = () => {
                 <Skills />
                 <section className="section skills" id="skills">
                   <h2 className="section__title">CV</h2>
-                  <a href="/cv_LAGACHE_KYLIAN_ASTON.pdf" download>
+                  <a href={cvPDF} download>
                     <img className="cv" src={cvImage} alt="CV" />
                   </a>
                 </section>
