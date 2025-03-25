@@ -19,7 +19,8 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          // Remplace 'resume' par l'URL de ton fichier PDF
+          <a href='/cv_LAGACHE_KYLIAN_ASTON.pdf' download>
             <span type='button' className='btn btn--outline'>
               En Savoir plus
             </span>
