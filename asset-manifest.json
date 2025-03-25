@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8b6ce66b.css",
-    "main.js": "/portfolio/static/js/main.599f4c60.js",
+    "main.js": "/portfolio/static/js/main.56a4c231.js",
     "static/media/preuveReunion.jpg": "/portfolio/static/media/preuveReunion.c4f74b2ec515ad9c7198.jpg",
     "static/media/pageAccueilAnnonce.png": "/portfolio/static/media/pageAccueilAnnonce.f73dfbeca159513d880c.png",
     "static/media/trello.png": "/portfolio/static/media/trello.4d776a78d17e9e6ac47e.png",
@@ -26,25 +26,34 @@
     "static/media/charte2.png": "/portfolio/static/media/charte2.974c4682f9b2c02f2f36.png",
     "static/media/maquette.pdf": "/portfolio/static/media/maquette.df60f18a6b8707ff077e.pdf",
     "static/media/CahierDesCharge.pdf": "/portfolio/static/media/CahierDesCharge.3acf5e40e15025b098a9.pdf",
+    "static/media/update.png": "/portfolio/static/media/update.f3f72a636d4d045a2eff.png",
     "static/media/rechercheFacture.png": "/portfolio/static/media/rechercheFacture.93faa1a5c44d8e7fb4f7.png",
     "static/media/documentationUtilisation.pdf": "/portfolio/static/media/documentationUtilisation.e20e192c75c5c76c225f.pdf",
     "static/media/mailEnvoyerFacture.png": "/portfolio/static/media/mailEnvoyerFacture.109c7fd7946e048e5692.png",
     "static/media/facture2.png": "/portfolio/static/media/facture2.74985d6b6658a7b2072c.png",
     "static/media/listePraticien.png": "/portfolio/static/media/listePraticien.4fa48c47e5e12e5ab4d1.png",
+    "static/media/cahierDesCharges.pdf": "/portfolio/static/media/cahierDesCharges.f126b3cf44a045bfc8fb.pdf",
     "static/media/facture5.png": "/portfolio/static/media/facture5.d8cb6f13beebced43410.png",
     "static/media/triggerInsert.png": "/portfolio/static/media/triggerInsert.290e9ad5a1f499644c68.png",
     "static/media/detailPraticien.png": "/portfolio/static/media/detailPraticien.9209dff2ebca249b10da.png",
     "static/media/triggerDelete.png": "/portfolio/static/media/triggerDelete.88f2088069daa7aa1656.png",
     "static/media/facture1.png": "/portfolio/static/media/facture1.853bada48b8dfe6dd6ee.png",
+    "static/media/trigger.png": "/portfolio/static/media/trigger.366e2445ba7ce9533409.png",
     "static/media/utilisationPluginWordpress.png": "/portfolio/static/media/utilisationPluginWordpress.0dcd7125a03bf84190fb.png",
     "static/media/NoticeSiteWeb.pdf": "/portfolio/static/media/NoticeSiteWeb.e1809b8afb176c69b337.pdf",
+    "static/media/laravel_1.png": "/portfolio/static/media/laravel_1.f3b6bae89857a68da534.png",
+    "static/media/detail2.png": "/portfolio/static/media/detail2.092685e73d9ea8908ca0.png",
+    "static/media/detail.png": "/portfolio/static/media/detail.f16ff2b40c122027d978.png",
     "static/media/ajoutAnnonce.png": "/portfolio/static/media/ajoutAnnonce.c60f4cb319cdcc95f682.png",
+    "static/media/laravel_2.png": "/portfolio/static/media/laravel_2.3a6abd15cf4de370dc10.png",
+    "static/media/Screenservlaravel.png": "/portfolio/static/media/Screenservlaravel.9bdbf6715b6b60572486.png",
+    "static/media/connexion.png": "/portfolio/static/media/connexion.e326bc9d31fcea28a31a.png",
     "index.html": "/portfolio/index.html",
     "main.8b6ce66b.css.map": "/portfolio/static/css/main.8b6ce66b.css.map",
-    "main.599f4c60.js.map": "/portfolio/static/js/main.599f4c60.js.map"
+    "main.56a4c231.js.map": "/portfolio/static/js/main.56a4c231.js.map"
   },
   "entrypoints": [
     "static/css/main.8b6ce66b.css",
-    "static/js/main.599f4c60.js"
+    "static/js/main.56a4c231.js"
   ]
 }
