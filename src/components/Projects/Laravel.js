@@ -1,16 +1,31 @@
 import React from 'react';
+import cahierDesCharge from '../../assets/img/Laravel/cahierDesCharges.pdf';
+import connexion from '../../assets/img/Laravel/connexion.png';
+import detail1 from '../../assets/img/Laravel/detail.png';
+import detail2 from '../../assets/img/Laravel/detail2.png';
+import InterfaceRH from '../../assets/img/Laravel/laravel_1.png';
+import BarreRecherche from '../../assets/img/Laravel/laravel_2.png';
+import hebergement from '../../assets/img/Laravel/Screenservlaravel.png';
+import trigger from '../../assets/img/Laravel/trigger.png';
+import VerificationSalaire from '../../assets/img/Laravel/update.png';
 import ImageSlider from '../ImageSlider/ImageSlider'; // Assurez-vous que le chemin est correct
 import './Laravel.css'; // Assurez-vous que le fichier Laravel.css existe et est bien importé
 
 const Laravel = () => {
   // Définir le tableau d'images pour ce projet spécifique
   const imagesSalaires = [
-    // { src: CahierDesCharge, pdfLink: CahierDesCharge, title: "Cahier des charges pour la gestion des salaires" },
-    // { src: GrilleSalaire, title: "Grille des salaires définie selon les spécialités" },
-    // { src: GestionSalaires, title: "Interface de gestion des salaires pour les responsables RH" },
-    // { src: InterfaceRH, title: "Vue de l&apos;interface RH permettant l&apos;attribution des salaires" },
-    // { src: connexion, title: "Vue de l&apos;interface permettant au RH de s&apos;identifier" },
-  ];
+     { src: cahierDesCharge, pdfLink: cahierDesCharge, title: "Cahier des charges pour la gestion des salaires" },
+     { src: connexion, title: "Vue de l'interface permettant au RH de s'identifier" },
+     { src: InterfaceRH, title: "Vue de l'interface RH permettant de choisir le praticien à  administrer" },
+     { src: BarreRecherche, title: "Barre de recherche afin d'optimiser la le chargement de la page" },
+     { src: detail1, title: "Interface de Gestion de Salaire" },
+     { src: detail2, title: "Interface de Gestion de Salaire" },
+     { src: trigger, title: "Trigger permettant la vérification de la régle des 10%" },
+     { src: VerificationSalaire, title: "Verification de la régle coté application pour plus de sécurité" },
+     { src: hebergement, title: "hebergement de l'application sur un serveur linux" },
+
+
+];
 
   return (
     <section className="project-details">
@@ -43,17 +58,15 @@ const Laravel = () => {
         <h3>Tech Stack:</h3>
         <ul>
           <li>Laravel</li>
-          <li>PHP</li>
-          <li>MySQL</li>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>SQL</li>
         </ul>
       </div>
 
       <div className="project-details__links">
         <h3>Links:</h3>
         <ul>
-          <li><a href="https://github.com/mon-portfolio/salaires" target="_blank" rel="noopener noreferrer">Lien vers le code source du projet</a></li>
+          <li><a href="https://github.com/kylianLag/apLaravel/tree/main/apLaravel" target="_blank" rel="noopener noreferrer">Lien vers le code source du projet</a></li>
         </ul>
       </div>
     </section>
