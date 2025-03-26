@@ -5,6 +5,7 @@ import detail1 from '../../assets/img/Laravel/detail.png';
 import detail2 from '../../assets/img/Laravel/detail2.png';
 import InterfaceRH from '../../assets/img/Laravel/laravel_1.png';
 import BarreRecherche from '../../assets/img/Laravel/laravel_2.png';
+import rh from '../../assets/img/Laravel/rh.png';
 import hebergement from '../../assets/img/Laravel/Screenservlaravel.png';
 import trigger from '../../assets/img/Laravel/trigger.png';
 import VerificationSalaire from '../../assets/img/Laravel/update.png';
@@ -15,6 +16,7 @@ const Laravel = () => {
   // Définir le tableau d'images pour ce projet spécifique
   const imagesSalaires = [
      { src: cahierDesCharge, pdfLink: cahierDesCharge, title: "Cahier des charges pour la gestion des salaires" },
+     { src: rh, title: "Création d'une table pour les Ressources Humaines ( RH )" },
      { src: connexion, title: "Vue de l'interface permettant au RH de s'identifier" },
      { src: InterfaceRH, title: "Vue de l'interface RH permettant de choisir le praticien à  administrer" },
      { src: BarreRecherche, title: "Barre de recherche afin d'optimiser la le chargement de la page" },
