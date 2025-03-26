@@ -9,7 +9,7 @@ import './Flutter.css'; // Assurez-vous que le fichier Flutter.css existe et est
 const Flutter = () => {
   // Définir le tableau d'images pour ce projet spécifique
   const imagesFlutter = [
-     { src: Maquette,pdfLink: Maquette , title: "Maquette de l&apos;application mobile Flutter" },
+     { src: Maquette,pdfLink: Maquette , title: "Maquette de l'application mobile Flutter" },
      { src: Liste, title: "Interface client montrant la liste des praticiens" },
      { src: detail, title: "Vue détaillée des notes et commentaires d'un praticien" },
      { src: api, title: "Extrait de code de l'api crée et utilisée pour ce projet" },

@@ -44,7 +44,7 @@ const Laravel = () => {
         <br /><br />
         🔹 **Analyse du cahier des charges** : Rédaction du cahier des charges détaillant les besoins du service RH concernant la gestion des salaires.
         <br /><br />
-        🔹 **Conception de la base de données** : Ajout du champ &quot;salaire&quot; dans la table des types de postes, avec la possibilité de gérer une variation de 10% sur le salaire en fonction du poste occupé.
+        🔹 **Conception de la base de données** : Ajout du champ &quot;salaire&quot; dans la table des types de postes, avec la possibilité de gérer une variation de 10% sur le salaire des praticiens ainsi que de l&apos;ajout d&apos;une table RH.
         <br /><br />
         🔹 **Développement de l&apos;application web** : Création de l&apos;interface RH avec le framework Laravel, permettant à l&apos;utilisateur de sélectionner un praticien, modifier son salaire et afficher les salaires minimum et maximum autorisés en fonction de la spécialité.
         <br /><br />
