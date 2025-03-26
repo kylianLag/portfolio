@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8b6ce66b.css",
-    "main.js": "/portfolio/static/js/main.b99d277c.js",
+    "main.js": "/portfolio/static/js/main.bc11f37c.js",
     "static/media/preuveReunion.jpg": "/portfolio/static/media/preuveReunion.c4f74b2ec515ad9c7198.jpg",
     "static/media/pageAccueilAnnonce.png": "/portfolio/static/media/pageAccueilAnnonce.f73dfbeca159513d880c.png",
     "static/media/trello.png": "/portfolio/static/media/trello.4d776a78d17e9e6ac47e.png",
@@ -40,6 +40,7 @@
     "static/media/triggerDelete.png": "/portfolio/static/media/triggerDelete.88f2088069daa7aa1656.png",
     "static/media/facture1.png": "/portfolio/static/media/facture1.853bada48b8dfe6dd6ee.png",
     "static/media/trigger.png": "/portfolio/static/media/trigger.366e2445ba7ce9533409.png",
+    "static/media/rh.png": "/portfolio/static/media/rh.3598ec52821dff135d7d.png",
     "static/media/utilisationPluginWordpress.png": "/portfolio/static/media/utilisationPluginWordpress.0dcd7125a03bf84190fb.png",
     "static/media/NoticeSiteWeb.pdf": "/portfolio/static/media/NoticeSiteWeb.e1809b8afb176c69b337.pdf",
     "static/media/laravel_1.png": "/portfolio/static/media/laravel_1.f3b6bae89857a68da534.png",
@@ -51,10 +52,10 @@
     "static/media/connexion.png": "/portfolio/static/media/connexion.e326bc9d31fcea28a31a.png",
     "index.html": "/portfolio/index.html",
     "main.8b6ce66b.css.map": "/portfolio/static/css/main.8b6ce66b.css.map",
-    "main.b99d277c.js.map": "/portfolio/static/js/main.b99d277c.js.map"
+    "main.bc11f37c.js.map": "/portfolio/static/js/main.bc11f37c.js.map"
   },
   "entrypoints": [
     "static/css/main.8b6ce66b.css",
-    "static/js/main.b99d277c.js"
+    "static/js/main.bc11f37c.js"
   ]
 }
