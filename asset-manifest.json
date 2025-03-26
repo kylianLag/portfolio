@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8b6ce66b.css",
-    "main.js": "/portfolio/static/js/main.bc11f37c.js",
+    "main.js": "/portfolio/static/js/main.61e7c5cd.js",
     "static/media/preuveReunion.jpg": "/portfolio/static/media/preuveReunion.c4f74b2ec515ad9c7198.jpg",
     "static/media/pageAccueilAnnonce.png": "/portfolio/static/media/pageAccueilAnnonce.f73dfbeca159513d880c.png",
     "static/media/trello.png": "/portfolio/static/media/trello.4d776a78d17e9e6ac47e.png",
@@ -52,10 +52,10 @@
     "static/media/connexion.png": "/portfolio/static/media/connexion.e326bc9d31fcea28a31a.png",
     "index.html": "/portfolio/index.html",
     "main.8b6ce66b.css.map": "/portfolio/static/css/main.8b6ce66b.css.map",
-    "main.bc11f37c.js.map": "/portfolio/static/js/main.bc11f37c.js.map"
+    "main.61e7c5cd.js.map": "/portfolio/static/js/main.61e7c5cd.js.map"
   },
   "entrypoints": [
     "static/css/main.8b6ce66b.css",
-    "static/js/main.bc11f37c.js"
+    "static/js/main.61e7c5cd.js"
   ]
 }
